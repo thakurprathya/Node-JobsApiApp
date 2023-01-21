@@ -1,25 +1,10 @@
-#### Project Setup
+# Node-JobsApiApp
 
-In order to spin up the project, in the root create .env with these two variables, with your own values.
+Backend Service (API) with complete CRUD functionality, along with authorization created Using NodeJs, ExpressJs, MongoDb, documented using swaggerUI to test all the end points & deployment on render.
 
-MONGO_URI
-JWT_SECRET
+SWAGGER UI
+For testing any endpoint use "Try it Out"
+On Success of Auth End points will recieve a token use it in Authorize dialog before testing Jobs end Points.
+Schemas will help in defining the type of various parameters
 
-After that run this command
-
-```bash
-npm install && npm start
-```
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
+App link : https://jobsapiapp.onrender.com
